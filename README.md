@@ -51,7 +51,7 @@ Once the SonarQube container is healthy and the application is ready, execute th
 mvn clean verify sonar:sonar \
   -Dsonar.projectKey=my-spring-project \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=sqa_873fb66e8986b149d13baf57c4e41aaff916098cYOUR_GENERATED_TOKEN
+  -Dsonar.login=YOUR_GENERATED_TOKEN
 ```
 
 Note: Generate your SONAR_TOKEN in the SonarQube Dashboard under My Account > Security.
