@@ -1,1 +1,20 @@
-target
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+*.class
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# Docker volumes (carpetas generadas por docker-compose)
+sonarqube-docker/sonarqube_conf/
+sonarqube-docker/sonarqube_data/
+sonarqube-docker/sonarqube_extensions/
+sonarqube-docker/sonarqube_bundled-plugins/
+sonarqube-docker/postgresql/
+sonarqube-docker/postgresql_data/
